@@ -8,11 +8,11 @@ import {getFirestore} from "firebase/firestore"
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "${{ secrets.REACT_APP_FIREBASE_API_KEY }}",
-  authDomain: "${{ secrets.REACT_APP_FIREBASE_AUTH_DOMAIN }}",
-  projectId: "${{ secrets.REACT_APP_FIREBASE_PROJECT_ID }}",
-  storageBucket: "${{ secrets.REACT_APP_FIREBASE_STORAGE_BUCKET }}",
-  messagingSenderId: "${{ secrets.REACT_APP_FIREBASE_MESSAGING_SENDER_ID }}",
-  appId: "${{ secrets.REACT_APP_FIREBASE_APP_ID }}"
+  authDomain: "mous-saka.firebaseapp.com",
+  projectId: "mous-saka",
+  storageBucket: "mous-saka.appspot.com",
+  messagingSenderId: "476241654251",
+  appId: "1:476241654251:web:b2ec339b429001f0b329ae"
 };
 
 // Initialize Firebase
