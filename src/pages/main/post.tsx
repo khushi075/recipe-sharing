@@ -30,6 +30,7 @@ export const Post = (props: Props) => {
 
     useEffect(() => {
         getLikes()
+        // eslint-disable-next-line
     }, [])
 
     const myLike = likes?.find((like) => like.userId === user?.uid)

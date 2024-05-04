@@ -21,7 +21,6 @@ export const Main = () => {
     useEffect(() => {
         const getPosts = async () => {
             if (user) {
-                const postsRef = collection(db, "posts")
                 const data = await getDocs(postsRef)
                 setPostsList(data.docs.map((doc) => (
                     {
@@ -33,6 +32,7 @@ export const Main = () => {
         }
 
         getPosts();
+        // eslint-disable-next-line
     }, [user])
 
     return (
