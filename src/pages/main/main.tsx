@@ -17,7 +17,7 @@ export const Main = () => {
     const [user] = useAuthState(auth)
     const postsRef = collection(db, "posts")
     const [postsList, setPostsList] = useState<Posts[] | null>(null)
-    
+
     useEffect(() => {
         const getPosts = async () => {
             if (user) {
